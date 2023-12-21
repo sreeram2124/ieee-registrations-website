@@ -1,75 +1,57 @@
-/* src/components/Footer/style.css */
-
 .footer {
-    align-items: center;
+    background-color: #000000;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.footer-content {
     display: flex;
-    flex-direction: column;
-    gap: 54px;
-    position: relative;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
-.footer .frame {
-    align-items: center;
-    align-self: stretch;
-    display: flex;
-    flex: 0 0 auto;
-    flex-direction: column;
-    gap: 54px;
-    position: relative;
-    width: 100%;
+.footer-section {
+    margin-bottom: 20px;
 }
 
-.footer .IEEE-SRM-SB {
-    height: 106.03px;
-    object-fit: cover;
-    position: relative;
-    width: 256px;
+.footer-section h3 {
+    color: var(--variable-collection-secondary);
+    flex: 1;
+    font-family: var(--h3-font-family);
+    font-size: var(--h3-font-size);
+    font-style: var(--h3-font-style);
+    font-weight: var(--h3-font-weight);
+    letter-spacing: var(--h3-letter-spacing);
+    line-height: var(--h3-line-height);
+    margin-bottom: 10px;
 }
 
-.footer .div {
-    align-items: center;
-    align-self: stretch;
-    display: flex;
-    flex: 0 0 auto;
-    flex-direction: column;
-    gap: 24px;
-    position: relative;
-    width: 100%;
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
-.footer .div-2 {
-    align-items: center;
-    align-self: stretch;
-    display: flex;
-    flex: 0 0 auto;
-    gap: 32px;
-    justify-content: center;
-    position: relative;
-    width: 100%;
+.footer-section ul li {
+    margin-bottom: 8px;
 }
 
-.footer .text-wrapper {
-    color: #ffffff;
-    font-family: var(--CTA-font-family);
-    font-size: var(--CTA-font-size);
-    font-style: var(--CTA-font-style);
-    font-weight: var(--CTA-font-weight);
-    letter-spacing: var(--CTA-letter-spacing);
-    line-height: var(--CTA-line-height);
-    margin-top: -1px;
-    position: relative;
-    text-align: center;
-    width: fit-content;
-}
-
-.footer .p {
-    align-self: stretch;
+.copyright {
     color: var(--variable-collection-primary);
     font-family: "Montserrat-Medium", Helvetica;
     font-size: 14px;
     font-weight: 500;
-    letter-spacing: 0;
-    line-height: normal;
-    position: relative;
+    margin-top: 20px;
     text-align: center;
+}
+
+@media (max-width: 768px) {
+    .footer-content {
+        flex-direction: column;
+    }
 }
