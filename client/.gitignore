@@ -54,3 +54,4 @@ tsconfig.tsbuildinfo
 # Editor directories and files
 .editorconfig
 .eslintcache
+.vercel
