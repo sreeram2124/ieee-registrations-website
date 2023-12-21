@@ -1,5 +1,3 @@
-// src/components/RegistrationForm/RegistrationForm.jsx
-
 import React from "react";
 import "./RegistrationForm.css";
 
@@ -20,31 +18,31 @@ export const RegistrationForm = () => {
                 <div className="frame-2">
                     <div className="frame-3">
                         <div className="text-wrapper-2">Name</div>
-                        <img className="line" alt="Line" src="line-1.svg" />
+                        <img className="line" alt="Line" src="/assets/Line.svg" />
                     </div>
                     <div className="frame-3">
                         <div className="text-wrapper-2">Registration Number</div>
-                        <img className="line" alt="Line" src="image.svg" />
+                        <img className="line" alt="Line" src="/assets/Line.svg" />
                     </div>
                     <div className="frame-3">
                         <div className="text-wrapper-2">Email</div>
-                        <img className="line" alt="Line" src="line-1-2.svg" />
+                        <img className="line" alt="Line" src="/assets/Line.svg" />
                     </div>
                     <div className="frame-3">
                         <div className="text-wrapper-2">Contact No.</div>
-                        <img className="line" alt="Line" src="line-1-3.svg" />
+                        <img className="line" alt="Line" src="/assets/Line.svg" />
                     </div>
                     <div className="frame-3">
                         <div className="text-wrapper-2">Department</div>
-                        <img className="line" alt="Line" src="line-1-4.svg" />
+                        <img className="line" alt="Line" src="/assets/Line.svg" />
                     </div>
                     <div className="frame-3">
                         <div className="text-wrapper-2">Section</div>
-                        <img className="line" alt="Line" src="line-1-5.svg" />
+                        <img className="line" alt="Line" src="/assets/Line.svg" />
                     </div>
                     <div className="frame-3">
                         <div className="text-wrapper-2">Faculty Advisor</div>
-                        <img className="line" alt="Line" src="line-1-6.svg" />
+                        <img className="line" alt="Line" src="/assets/Line.svg" />
                     </div>
                 </div>
                 <div className="div-wrapper">
