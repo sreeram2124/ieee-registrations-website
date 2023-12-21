@@ -1,4 +1,3 @@
-// src/components/HeroSection/HeroSection.jsx
 import React from "react";
 import "./HeroSection.css";
 
@@ -11,11 +10,11 @@ export const HeroSection = () => {
                     <p className="p">Unlock Exclusive Access to Exciting Events and Workshops</p>
                 </div>
                 <div className="div-wrapper">
-                    <div className="text-wrapper-2">Register Now</div>
+                    <div className="text-wrapper-2">Hactrix-24</div>
                 </div>
             </div>
             <div className="HeroSectionImage">
-                <img src="/assets/HeroSection_Image.png" alt="Hero Section Image" />
+                <img src="/assets/HeroSection_Image.png" alt=" " />
             </div>
         </div>
     );
