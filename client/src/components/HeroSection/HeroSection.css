@@ -1,12 +1,10 @@
-/* src/components/HeroSection/HeroSection.css */
-
 .hero-section {
     align-items: center;
     display: flex;
     flex-direction: column;
     gap: 64px;
-    height: 998px;
     position: relative;
+    margin-bottom: 128px;
 }
 
 .hero-section .frame {
@@ -44,10 +42,10 @@
     font-weight: var(--h1-font-weight);
     letter-spacing: var(--h1-letter-spacing);
     line-height: var(--h1-line-height);
-    margin-top: -1px;
     position: relative;
     text-align: center;
-    text-fill-color: transparent;
+    color: transparent;
+    margin: 0 0;
 }
 
 .hero-section .p {
@@ -65,7 +63,8 @@
     line-height: var(--h2-line-height);
     position: relative;
     text-align: center;
-    text-fill-color: transparent;
+    color: transparent;
+    margin: 0 0;
 }
 
 .hero-section .div-wrapper {
@@ -89,7 +88,6 @@
     font-weight: var(--CTA-font-weight);
     letter-spacing: var(--CTA-letter-spacing);
     line-height: var(--CTA-line-height);
-    margin-top: -1px;
     position: relative;
     text-align: center;
     width: fit-content;
