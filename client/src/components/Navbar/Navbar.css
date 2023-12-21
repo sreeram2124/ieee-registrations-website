@@ -1,0 +1,52 @@
+.navbar {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.navbar .ieee-logo-white {
+    height: 48.57px;
+    object-fit: cover;
+    position: relative;
+    width: 120px;
+}
+
+.navbar .frame {
+    align-items: center;
+    align-self: stretch;
+    display: flex;
+    flex: 1;
+    flex-grow: 1;
+    gap: 64px;
+    justify-content: center;
+    position: relative;
+}
+
+.navbar .text-wrapper {
+    color: var(--variable-collection-secondary);
+    font-family: var(--CTA-font-family);
+    font-size: var(--CTA-font-size);
+    font-style: var(--CTA-font-style);
+    font-weight: var(--CTA-font-weight);
+    letter-spacing: var(--CTA-letter-spacing);
+    line-height: var(--CTA-line-height);
+    position: relative;
+    text-align: center;
+    width: fit-content;
+}
+
+.navbar .div-wrapper {
+    align-items: center;
+    border: 1px solid;
+    border-color: var(--variable-collection-line);
+    border-radius: 12px;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 10px;
+    justify-content: center;
+    margin-right: -1px;
+    overflow: hidden;
+    padding: 12px 32px;
+    position: relative;
+}
