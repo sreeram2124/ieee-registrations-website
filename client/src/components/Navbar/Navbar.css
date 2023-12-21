@@ -3,13 +3,15 @@
     display: flex;
     justify-content: space-between;
     position: relative;
+    margin-bottom: 128px;
 }
 
 .navbar .ieee-logo-white {
-    height: 48.57px;
     object-fit: cover;
     position: relative;
-    width: 120px;
+    width: 100%;
+    max-width: 120px;
+    height: auto;
 }
 
 .navbar .frame {
@@ -41,12 +43,31 @@
     border: 1px solid;
     border-color: var(--variable-collection-line);
     border-radius: 12px;
-    display: inline-flex;
     flex: 0 0 auto;
     gap: 10px;
     justify-content: center;
-    margin-right: -1px;
     overflow: hidden;
     padding: 12px 32px;
     position: relative;
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        margin-bottom: 32px;
+    }
+
+    .navbar .ieee-logo-white {
+        margin-bottom: 16px;
+    }
+
+    .navbar .frame {
+        gap: 32px;
+        margin-bottom: 16px;
+    }
+
+    .navbar .div-wrapper {
+        display: inline-flex;
+        border: 1px solid transparent;
+    }
 }
