@@ -102,7 +102,7 @@ function App() {
               <div className="sm:col-span-2">
                 <label
                   htmlFor="name"
-                  className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+                  className="block mb-2 text-sm font-medium text-gray-900 dark:text-white text-left"
                 >
                   Full Name
                 </label>
@@ -118,7 +118,7 @@ function App() {
               <div className="w-full">
                 <label
                   htmlFor="registration-number"
-                  className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+                  className="block mb-2 text-sm font-medium text-gray-900 dark:text-white text-left"
                 >
                   Registration Number
                 </label>
@@ -134,7 +134,7 @@ function App() {
               <div className="w-full">
                 <label
                   htmlFor="email"
-                  className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+                  className="block mb-2 text-sm font-medium text-gray-900 dark:text-white text-left"
                 >
                   Email
                 </label>
@@ -150,7 +150,7 @@ function App() {
               <div className="w-full">
                 <label
                   htmlFor="contact-number"
-                  className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+                  className="block mb-2 text-sm font-medium text-gray-900 dark:text-white text-left"
                 >
                   Contact No.
                 </label>
@@ -166,7 +166,7 @@ function App() {
               <div className="w-full">
                 <label
                   htmlFor="department"
-                  className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+                  className="block mb-2 text-sm font-medium text-gray-900 dark:text-white text-left"
                 >
                   Department
                 </label>
@@ -182,7 +182,7 @@ function App() {
               <div className="w-full">
                 <label
                   htmlFor="section"
-                  className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+                  className="block mb-2 text-sm font-medium text-gray-900 dark:text-white text-left"
                 >
                   Section
                 </label>
@@ -198,7 +198,7 @@ function App() {
               <div className="w-full">
                 <label
                   htmlFor="faculty-advisor"
-                  className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+                  className="block mb-2 text-sm font-medium text-gray-900 dark:text-white text-left"
                 >
                   Faculty Advisor
                 </label>
@@ -212,12 +212,14 @@ function App() {
                 />
               </div>
             </div>
-            <button
-              type="submit"
-              className="inline-flex items-center px-5 py-2.5 mt-4 sm:mt-6 text-sm font-medium text-center text-white bg-primary-700 rounded-lg focus:ring-4 focus:ring-primary-200 dark:focus:ring-primary-900 hover:bg-primary-800"
-            >
-              Register
-            </button>
+            <div>
+              <a
+                href="#"
+                className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-gery-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900 mt-8"
+              >
+                Register
+              </a>
+            </div>
           </form>
         </div>
       </section>
