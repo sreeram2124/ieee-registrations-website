@@ -8,20 +8,22 @@ function App() {
   return (
     <>
 
+      {/* Navbar */}
       <Navbar fluid rounded>
 
-        <Navbar.Brand href="https://ieeesrmist.com">
-          <img src="/img/IEEE_SRM_SB.png" className="mr-3 h-6 sm:h-6 md:h-9 lg:h-12" alt="IEEE SRM" />
+        <Navbar.Brand href="#">
+          <img src="/img/IEEE_SRM_SB.png" className="mr-3 h-6 sm:h-0 md:h-9 lg:h-12" alt="IEEE SRM" />
         </Navbar.Brand>
 
         <Navbar.Toggle />
 
         <Navbar.Collapse>
-          <Navbar.Link href="#">Home</Navbar.Link>
+          <Navbar.Link href="https://ieeesrmist.com">Home</Navbar.Link>
           <Navbar.Link href="#">Login</Navbar.Link>
         </Navbar.Collapse>
 
       </Navbar>
+      {/* Navbar Ends */}
 
 
       <section className="bg-white dark:bg-gray-900">
@@ -35,7 +37,7 @@ function App() {
           <div className="flex flex-col mb-8 lg:mb-16 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
             <a
               href="#"
-              className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-gery-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900"
+              className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-800 hover:bg-gery-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900"
             >
               Register Here
               <svg
