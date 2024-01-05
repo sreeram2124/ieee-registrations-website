@@ -1,8 +1,6 @@
 import React from 'react';
 import { Navbar } from 'flowbite-react';
 
-const hoverClasses = 'hover:text-blue-800';
-
 const MyNavbar = () => {
     return (
 
@@ -14,13 +12,14 @@ const MyNavbar = () => {
             <Navbar.Toggle />
 
             <Navbar.Collapse>
-                <Navbar.Link href="https://ieeesrmist.com" className={hoverClasses}>
+                <Navbar.Link href="https://ieeesrmist.com" className="hover:underline md:hover:text-blue-800">
                     Home
                 </Navbar.Link>
-                <Navbar.Link href="#" className={hoverClasses}>
+                <Navbar.Link href="#" className="hover:underline md:hover:text-blue-800">
                     Login
                 </Navbar.Link>
             </Navbar.Collapse>
+
         </Navbar>
 
     );
