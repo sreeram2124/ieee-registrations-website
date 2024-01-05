@@ -2,28 +2,14 @@ import React from 'react';
 import './App.css'
 
 import { Button, Navbar, Carousel, Footer } from 'flowbite-react';
+import MyNavbar from "./components/MyNavbar";
 
 function App() {
 
   return (
     <>
 
-      {/* Navbar */}
-      <Navbar fluid rounded>
-
-        <Navbar.Brand href="#">
-          <img src="/img/IEEE_SRM_SB.png" className="mr-3 h-6 sm:h-0 md:h-9 lg:h-12" alt="IEEE SRM" />
-        </Navbar.Brand>
-
-        <Navbar.Toggle />
-
-        <Navbar.Collapse>
-          <Navbar.Link href="https://ieeesrmist.com">Home</Navbar.Link>
-          <Navbar.Link href="#">Login</Navbar.Link>
-        </Navbar.Collapse>
-
-      </Navbar>
-      {/* Navbar Ends */}
+      <MyNavbar />
 
 
       <section className="bg-white dark:bg-gray-900">
