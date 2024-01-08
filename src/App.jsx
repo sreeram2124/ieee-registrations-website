@@ -1,12 +1,14 @@
 import React from 'react';
 import './App.css'
 
+import './firebase/firebaseInit';
+import PdfGeneratorButton from './utils/PdfGeneratorButton';
+
 import MyNavbar from "./components/MyNavbar";
 import MyHero from "./components/MyHero";
 import MyStatistics from "./components/MyStatistics";
-import RegForm from "./components/RegForm";
 import MyBanner from "./components/MyBanner";
-import MyForm from "./components/MyForm";
+import SimpleForm from "./components/SimpleForm";
 import MyFooter from "./components/MyFooter";
 
 function App() {
@@ -16,10 +18,9 @@ function App() {
 
       <MyNavbar />
       <MyHero />
-      <RegForm />
       <MyStatistics />
       <MyBanner />
-      <MyForm />
+      <SimpleForm />
       <MyFooter />
 
     </>
