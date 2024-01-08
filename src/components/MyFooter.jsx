@@ -1,19 +1,18 @@
 import React from 'react';
-import { Footer } from 'flowbite-react';
 
 const MyFooter = () => {
     return (
-
-        <Footer container>
-            <Footer.Copyright href="#" by="IEEE SRM" year={2024} />
-            <Footer.LinkGroup>
-                <Footer.Link href="#">Home</Footer.Link>
-                <Footer.Link href="#">Contact</Footer.Link>
-                <Footer.Link href="#">Privacy Policy</Footer.Link>
-                <Footer.Link href="#">Licensing</Footer.Link>
-            </Footer.LinkGroup>
-        </Footer>
-
+        <footer className="bg-white py-4 px-6 sm:flex sm:justify-between">
+            <div className="text-sm text-gray-600 mb-4">
+                © 2024 IEEE SRM
+            </div>
+            <div className="flex space-x-4">
+                <a href="#" className="text-sm text-gray-600 hover:text-gray-900">Home</a>
+                <a href="#" className="text-sm text-gray-600 hover:text-gray-900">Contact</a>
+                <a href="#" className="text-sm text-gray-600 hover:text-gray-900">Privacy Policy</a>
+                <a href="#" className="text-sm text-gray-600 hover:text-gray-900">Licensing</a>
+            </div>
+        </footer>
     );
 };
 
