@@ -1,23 +1,19 @@
-// functions/index.js
+/**
+ * Import function triggers from their respective submodules:
+ *
+ * const {onCall} = require("firebase-functions/v2/https");
+ * const {onDocumentWritten} = require("firebase-functions/v2/firestore");
+ *
+ * See a full list of supported triggers at https://firebase.google.com/docs/functions
+ */
 
-const functions = require('firebase-functions');
+const {onRequest} = require("firebase-functions/v2/https");
+const logger = require("firebase-functions/logger");
 
-exports.register = functions.https.onRequest((request, response) => {
-    // Enable CORS (you may need to adjust this based on your needs)
-    response.set('Access-Control-Allow-Origin', '*');
+// Create and deploy your first functions
+// https://firebase.google.com/docs/functions/get-started
 
-    if (request.method !== 'POST') {
-        return response.status(405).json({ error: 'Method Not Allowed' });
-    }
-
-    try {
-        const data = JSON.parse(request.body);
-
-        // Process the data or perform database operations
-        // For now, just return a success response
-        return response.status(200).json({ success: true });
-    } catch (error) {
-        console.error('Error:', error);
-        return response.status(500).json({ error: 'Internal Server Error' });
-    }
-});
+// exports.helloWorld = onRequest((request, response) => {
+//   logger.info("Hello logs!", {structuredData: true});
+//   response.send("Hello from Firebase!");
+// });
